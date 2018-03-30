@@ -63,5 +63,6 @@ gem 'webpacker', '~> 3.3'
 # react-rails
 gem 'react-rails', '~> 2.4', '>= 2.4.4'
 
-gem 'rails_12factor'
-gem 'ruby'
+gem 'rails_12factor', group: :production
+
+ruby "2.3.4"
