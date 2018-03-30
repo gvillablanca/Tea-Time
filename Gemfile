@@ -65,4 +65,4 @@ gem 'react-rails', '~> 2.4', '>= 2.4.4'
 
 gem 'rails_12factor', group: :production
 
-ruby "2.3.4"
+ruby "2.4.3"

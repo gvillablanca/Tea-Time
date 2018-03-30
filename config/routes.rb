@@ -1,4 +1,5 @@
 # == Route Map
+root 'welcome#index'
 #
 #                   Prefix Verb   URI Pattern                          Controller#Action
 #         new_user_session GET    /users/sign_in(.:format)             devise/sessions#new
