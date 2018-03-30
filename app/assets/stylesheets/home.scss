@@ -1,0 +1,71 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.circle{
+  border-radius: 50%;
+}
+
+.cover{
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* LOGIN PAGE */
+#login {
+  height: 100vh;
+  padding: 20vh 0;
+  
+  .logo {
+    width: 100%;
+    margin-bottom: 30rem 0;
+    
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+.cont > * {
+  padding: 2em;
+  text-align: center;
+  // margin: 2em;
+}
+
+li a {
+  color: gray;
+}
+li a span {
+  color: gray;
+}
+
+h3 {
+  padding: 0 !important;
+}
+
+.logo {
+  height: 2em !important;
+}
+
+.logocolor {
+  width: 80%;
+  // height: 3em;
+  align-self: center;
+  margin-top: 2em;
+  
+}
+
+.icon {
+  height: 1.5em !important;
+}
+.producto{
+  width: 15em;
+}
